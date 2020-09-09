@@ -30,7 +30,7 @@ public class PlayerActivity extends YouTubeBaseActivity implements YouTubePlayer
         YouTubePlayerView playerView = findViewById(R.id.playerView);
 
         if (YouTubeApiServiceUtil.isYouTubeApiServiceAvailable(this) == YouTubeInitializationResult.SUCCESS) {
-            playerView.initialize("AIzaSyA-dBQZJ48Bc7vSHvOmiX8Amyjp1ctYQRI", this);
+            playerView.initialize("YOUR_API_KEY", this);
         } else {
             WebView webView = findViewById(R.id.webView);
 
